@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8C8A8F"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Android Studio"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.941"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.069" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#444445"
+            android:gravity="center"
+            android:text="Dualist"
+            android:textColor="#F8ED88"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="268dp"
+            android:layout_gravity="center"
+            android:src="@drawable/rg" />
+
+        <TextView
+            android:layout_width="304dp"
+            android:layout_height="261dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="описание всех дуалистов в Valorant вместе с фото"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.941"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.069" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#444445"
+            android:gravity="center"
+            android:text="Sentinel"
+            android:textColor="#42C5FA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="268dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ch" />
+
+        <TextView
+            android:layout_width="304dp"
+            android:layout_height="261dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="описание всех стражей в Valorant вместе с фото"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.941"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.069" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#444445"
+            android:gravity="center"
+            android:text="Угадай число"
+            android:textColor="#FF9800"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="268dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ju" />
+
+        <TextView
+            android:layout_width="304dp"
+            android:layout_height="261dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="угадай число при ошибке дает посказку можно поменять режим сложности"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.941"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.069" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#444445"
+            android:gravity="center"
+            android:text="Кликер"
+            android:textColor="#2152CD"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="268dp"
+            android:layout_gravity="center"
+            android:src="@drawable/fg" />
+        <TextView
+            android:layout_width="304dp"
+            android:layout_height="261dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Считает количество кликов"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.941"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.069" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#444445"
+            android:gravity="center"
+            android:text="IMB"
+            android:textColor="#19E621"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="268dp"
+            android:layout_gravity="center"
+            android:src="@drawable/zx" />
+        <TextView
+            android:layout_width="304dp"
+            android:layout_height="261dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Считает ваш ИМТ и показывает норму "
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.941"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.069" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#444445"
+            android:gravity="center"
+            android:text="Светофор"
+            android:textColor="#19E621"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="268dp"
+            android:layout_gravity="center"
+            android:src="@drawable/pl" />
+        <TextView
+            android:layout_width="304dp"
+            android:layout_height="261dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="меняет цвет фона под цвет нажатой кнопки"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.941"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.069" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#444445"
+            android:gravity="center"
+            android:text="FireBase"
+            android:textColor="#19E621"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="268dp"
+            android:layout_gravity="center"
+            android:src="@drawable/oi" />
+        <TextView
+            android:layout_width="304dp"
+            android:layout_height="261dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="можно зарегестрироваться и если вы забыли пароль отправляет письмо на вашу почту"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.941"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.069" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#444445"
+            android:gravity="center"
+            android:text="Калькулятр"
+            android:textColor="#19E621"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="268dp"
+            android:layout_gravity="center"
+            android:src="@drawable/hy" />
+        <TextView
+            android:layout_width="304dp"
+            android:layout_height="261dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Калькулятр с большим количеством действий если хотите можно поставить светлый режим"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.941"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.069" />
+
+
+    </LinearLayout>
+</ScrollView>
